@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Website</title>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fas fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>THANGAPANDIYAN</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque esse, sapiente aperiam reiciendis nemo aliquid alias laborum, debitis dolor in et repudiandae eius pariatur mollitia laboriosam! Veritatis dicta nihil rerum.</p>
+            <div class="social-media">
+                <a href="https://github.com/Thanga00725" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/thangapandiyan-a-31abb624b" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1-8_DgfrQPfFdD01hTEuOMI8Q_kEB3hau/view?usp=drive_link" target="_blank" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="photo-modified.png" alt="Photo of Thangapandiyan">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="photo.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>FINAL YEAR B.Tech STUDENT</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure nesciunt earum architecto recusandae necessitatibus esse nihil nam. Itaque beatae ipsam voluptas ipsa? Accusantium dolor quibusdam blanditiis corporis voluptatem minus doloribus.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION DESIGN -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui id voluptate nisi modi aspernatur! Laudantium dolorum vel voluptatum magnam voluptas est ad sit ab consequuntur!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fas fa-brain"></i>           
+                <h3>Deep Learning</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui id voluptate nisi modi aspernatur! Laudantium dolorum vel voluptatum magnam voluptas est ad sit ab consequuntur!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fas fa-database"></i>   
+                <h3>Data Analytics</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui id voluptate nisi modi aspernatur! Laudantium dolorum vel voluptatum magnam voluptas est ad sit ab consequuntur!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="web development.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web development</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nulla in aliquam, iure aspernatur ex magni nesciunt atque laborum facere quam quidem? Aliquam laboriosam eius assumenda odio nemo, harum quas.</p>
+                    <i class="fa-solid fa-share-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="data analytics.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Data analytics</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nulla in aliquam, iure aspernatur ex magni nesciunt atque laborum facere quam quidem? Aliquam laboriosam eius assumenda odio nemo, harum quas.</p>
+                    <i class="fa-solid fa-share-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="deep learning.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Deep Learning</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nulla in aliquam, iure aspernatur ex magni nesciunt atque laborum facere quam quidem? Aliquam laboriosam eius assumenda odio nemo, harum quas.</p>
+                    <i class="fa-solid fa-share-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+    
+        <form id="contact-form" action="send_message.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+    
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">+
+            </div>
+            
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+
+     <!-- FOOTER SECTION DESIGN -->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Thangapandiyan | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+      </footer>
+
+      <!-- SCROOL REVEAL JS -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!-- TYPED JS -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="script.js"></script>
+</body>
+</html>
